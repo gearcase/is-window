@@ -1,6 +1,6 @@
 # is-window
 
-> Check if the given value is the window object.
+> Check if the given value is a window object.
 
 [![MIT License](https://img.shields.io/badge/license-MIT_License-green.svg?style=flat-square)](https://github.com/bubkoo/is-window/blob/master/LICENSE)
 

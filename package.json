@@ -1,7 +1,7 @@
 {
   "name": "is-window",
   "version": "1.0.0",
-  "description": "Check if the given value is the window object.",
+  "description": "Check if the given value is a window object.",
   "main": "index.js",
   "scripts": {
     "lint": "jshint index.js",

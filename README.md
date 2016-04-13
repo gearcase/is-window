@@ -36,5 +36,4 @@ isWindow([1, 2, 3]);      // => false
 - [is-nil](https://github.com/bubkoo/is-nil) - Checks if the given value is null or undefined.
 - [is-null](https://github.com/bubkoo/is-null) - Checks if the given value is null.
 - [is-length](https://github.com/bubkoo/is-length) - Checks if the given value is a valid array-like length.
-- [is-window](https://github.com/bubkoo/is-window) - Checks if the given value is a window object.
 - [is-array-like](https://github.com/bubkoo/is-array-like) - Checks if the given value is an array or an array-like object.

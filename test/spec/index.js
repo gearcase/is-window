@@ -1,12 +1,11 @@
 'use strict';
 
-var char   = require('chai');
-var expect = char.expect;
+var expect = require('chai').expect;
 
 
 describe('is-window', function () {
 
-  var isWindow = require('../../index');
+  var isWindow = require('../../');
 
   it('common test', function () {
     expect(isWindow()).to.be.false;

@@ -2,12 +2,12 @@
 
 var expect = require('chai').expect;
 
-
 describe('is-window', function () {
 
   var isWindow = require('../../');
 
   it('common test', function () {
+
     expect(isWindow()).to.be.false;
 
     expect(isWindow(1)).to.be.false;
@@ -25,5 +25,9 @@ describe('is-window', function () {
     expect(isWindow([])).to.be.false;
 
     expect(isWindow(arguments)).to.be.false;
+
+    // var windowWannabe    = {};
+    // windowWannabe.window = windowWannabe;
+    // expect(isWindow(windowWannabe)).to.be.false;
   });
 });

@@ -6,7 +6,5 @@ module.exports = function (obj) {
     return false;
   }
 
-  var o = Object(obj);
-
-  return o === o.window;
+  return obj === Object(obj) && obj === obj.window;
 };
